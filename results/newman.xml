@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Orders API" tests="3" time="0.036">
+  <testsuite name="Login" id="d965576c-d7ec-410c-a4b5-c22718da245f" timestamp="2026-11-12T18:18:44.289Z" tests="1" failures="0" errors="0" time="0.029">
+    <testcase name="Login status is 200" time="0.029" classname="Login"/>
+  </testsuite>
+  <testsuite name="Create order" id="ee062c9c-492d-49d1-ad48-c2778b7fda98" timestamp="2026-11-12T18:18:44.289Z" tests="3" failures="0" errors="0" time="0.004">
+    <testcase name="Order created" time="0.004" classname="CreateOrder"/>
+    <testcase name="Order total is correct" time="0.004" classname="CreateOrder"/>
+    <testcase name="Location header exists" time="0.004" classname="CreateOrder"/>
+  </testsuite>
+  <testsuite name="Filter orders" id="e45ba17d-b8a1-4674-9f4c-ae5e7a7baedb" timestamp="2026-11-12T18:18:44.289Z" tests="2" failures="0" errors="0" time="0.003">
+    <testcase name="Filter returns 200" time="0.003" classname="FilterOrders"/>
+    <testcase name="Order total matches filter" time="0.003" classname="FilterOrders"/>
+  </testsuite>
+</testsuites>
